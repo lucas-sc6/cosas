@@ -1,0 +1,113 @@
+html{
+    font-size: 62,5%;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--niIdea);
+    display: flex;
+    flex-direction: column;
+
+}
+
+:root{
+    --TeamBuilder: hsl(0, 78%, 62%);
+    --Supervisor: hsl(180, 62%, 55%);
+    --Karma: hsl(34, 97%, 64%);
+    --Calculator: hsl(212, 86%, 64%);
+    --titulo: hsl(234, 12%, 34%);
+    --descripcion: hsl(229, 6%, 66%);
+    --niIdea: hsl(0, 0%, 98%);
+}
+
+h1{
+    color:var(--titulo);
+}
+
+h2{
+    font-weight: 200;
+}
+
+p{
+    color: var(--descripcion);
+}
+
+
+.cabeza{
+    margin: 3rem;
+
+}
+
+.cajas{
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+@media (min-width: 480px){
+    .cajas{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: auto auto;
+ 
+
+
+
+
+        
+
+        
+    }
+  
+}
+
+.cajita1{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 0.5rem;
+    border-top:0.3rem solid var(--Supervisor);
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+svg{
+    margin-left: 17rem;
+}
+
+.cajita2{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 0.5rem;
+    border-top: 0.3rem solid var(--TeamBuilder);
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.cajita3{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 0.5rem;
+    border-top:0.3rem solid var(--Karma);
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.cajita4{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 0.5rem;
+    border-top:0.3rem solid var(--Calculator);
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+
